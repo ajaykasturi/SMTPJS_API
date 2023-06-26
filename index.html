@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send Email</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div id="from-container">
+    <fieldset class="field">
+      <span style="font-size: 20px;" id="spanemail">Enter email address correctly</span>
+      <input type="email" id="email" class="emailfield" value="" /> 
+      <button type="submit" id="emailsubmit" class="btn" >submit</button>
+      <span style="font-size: 20px;" id="spanotp" class="otp">Enter OTP</span>
+      <input type="text" id="otp" class="emailfield otp" />
+      <button type="submit" id="otpsubmit" class="btn otp">Verify</button>
+      <div class="reset otp" id="reset">reset</div>
+   </fieldset>
+</div>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="index.js">
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+  }
+
+  #from-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .field{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  #4CAF50;
+    border: none;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .btn:hover{
+    background-color:  #47b549;
+  }
+  .emailfield{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .otp{
+    display: none;
+  }
+  .reset{
+    color:blue;
+  }
+  .reset:hover{
+    cursor: pointer;
+  }
+
+  @media (max-width:900px) {
+    .field{
+      width: 100%;
+    }
+  }
